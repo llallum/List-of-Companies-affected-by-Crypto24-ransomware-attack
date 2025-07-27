@@ -14,6 +14,10 @@
 
 **WDigest Clear-Text Password Dumping**
 
+**PSExec**
+
+**Remote Log Viewer**
+
 Commands:
 
         * Set-MpPreFerence -DisableBehaviorMonitoring $true
@@ -105,6 +109,9 @@ Another Query to AI:
         - Trend Micro
         - McAfee 
         - Fortinet VPN
+        - Solarwinds Network Monitor
+        - Fortigate
+        - Windows Defender
 
 
 **Scripts that finds SSH or AWS configuration in user profile **
