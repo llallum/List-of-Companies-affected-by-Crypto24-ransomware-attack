@@ -158,6 +158,7 @@ Another Query to AI:
         - Solarwinds Network Monitor
         - Fortigate
         - Windows Defender
+                - Microsoft Defender Exploit Guard
 
 
 **Scripts that finds SSH or AWS configuration in user profile **
