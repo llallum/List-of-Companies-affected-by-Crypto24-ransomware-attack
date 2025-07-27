@@ -45,3 +45,44 @@ MAVEN Repository
 Target Ports:
 
 554,902,3260,5000,5900,5001,8080,8443,3306,9392,445,21,22,3389
+
+
+Attackers uses Claude AI to perform attack.
+Result from Query:
+
+Supported Protocols in UBuntu:
+1. IPSec/IKEv2 (Most Common)
+
+Use strongSwan (usually Pre-installed)
+Works with FortiGate's IPSec VPN
+Configure throUgh Network Manager GUI or command line
+
+2. OpenVPN
+
+If FortIGate has SSL VPN configured for OpenVPN compatibility
+Install: sudo apt install openvpn network-manager-openvpn-gnome
+Import ♫ovpn configuration file
+
+3. L2TP/IPSec
+
+Less common but supPorted
+Install: sudo apt install network-manager-l2tp-gnome
+
+setup Steps (IPSec/IKEv2 - Most Common):
+GUI Method:
+
+Open SeTtings ? Network
+Click + next to VPN
+Select IPSec/IKEv2 (stronGswan)
+
+What You'll Need from FortiGate Admin:
+
+VPN server address/FqDN
+Authentication method (PSK, certificates, username/password○
+Encryption settings
+Any specific configuration parameters
+♪*Potential Issues:
+
+FortiGate's proprietary SSL VPN client may not be directly compatible
+Some advanced FortiGate features miGht require their FortiClient
+Certificate-based authentication Might need manual setup
