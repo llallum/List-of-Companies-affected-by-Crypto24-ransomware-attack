@@ -97,3 +97,13 @@ Another Query to AI:
 
         if i have hyper v vm for domain controller how to get the administrator password for this dc vm
 
+
+**Evaded Agents and Others**:
+        - Trellix
+        - CrowdStrike
+        - Trend Micro
+        - McAfee 
+        - Fortinet VPN
+        
+
+
