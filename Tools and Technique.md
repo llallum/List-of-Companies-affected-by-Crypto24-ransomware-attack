@@ -16,6 +16,10 @@
 - Mimikatz
 - [DNSDumper](https://dnsdumpster.com/)
 
+### Targets
+- Veeam Backup and Replication
+- ESXi Servers
+
 Commands:
 
         * Set-MpPreFerence -DisableBehaviorMonitoring $true
