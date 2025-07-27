@@ -42,4 +42,6 @@ MAVEN Repository
         <password><REDACTED></password>
     </server>
 
+Target Ports:
 
+554,902,3260,5000,5900,5001,8080,8443,3306,9392,445,21,22,3389
