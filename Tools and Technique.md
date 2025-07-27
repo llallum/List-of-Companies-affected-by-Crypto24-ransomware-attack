@@ -9,6 +9,7 @@
 - SSH
 - ScreenConnect
 - Datto RMM Agent
+- WinRM
 
 ### Network & System Tools
 - Advanced Port Scanner  
