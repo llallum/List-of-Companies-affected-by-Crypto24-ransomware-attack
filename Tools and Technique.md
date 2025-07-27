@@ -27,8 +27,8 @@
 - Build Automation Repositories
 - Kaseya One
 - AWS
-  - S3 Buckets
-  - Access Key and Secrets     
+    - S3 Buckets
+    - Access Key and Secrets     
 - RingCentral
 
 
