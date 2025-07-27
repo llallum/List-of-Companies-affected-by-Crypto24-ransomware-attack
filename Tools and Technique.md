@@ -67,6 +67,8 @@ Commands:
 
         * Check-ObjectLock-Retention.ps1
 
+        * ./pscan -a 10.168.27.0-10.168.27.255 -p 3389 -t 10 -l 5 -o out
+
 
 ESXI Commands:
 
