@@ -26,7 +26,7 @@
 - HyperV Servers
 - Build Automation Repositories
 - Kaseya One
-- AWS
+- AWS S3 Buckets 
 
 
 Commands:
