@@ -181,6 +181,8 @@ Another Query to AI:
             }
         }
 
+### Initial Access:
+- Possible RingCentral Vulnerability
 
 Ransom Note:
 
