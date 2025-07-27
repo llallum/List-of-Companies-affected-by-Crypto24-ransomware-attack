@@ -1,5 +1,5 @@
-# List of Companies affected by Crypto24 ransomware attack
-Here are the list of companies that were attacked by Crypto24 ransomware.
+# List of Companies affected by Crypto24 threat group
+Here are the list of companies that were attacked by Crypto24 and potentially deployed ransomware.
 
 AR-SOUBE - last active **20250717** <br>
 AU-PFS - last active **20250724**<br>
