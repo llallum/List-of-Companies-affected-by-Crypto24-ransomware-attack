@@ -24,6 +24,7 @@
 - Veeam Backup and Replication
 - ESXi Servers
 - Build Automation Repositories
+- Kaseya One
 
 
 Commands:
