@@ -19,7 +19,8 @@
 - Mimikatz
 - [DNSDumper](https://dnsdumpster.com/)
 - Robocopy
-- Get‑SmbShare and Get‑SmbShareAccess 
+- Get‑SmbShare and Get‑SmbShareAccess
+- Metasploit
 
 ### Targets
 - Veeam Backup and Replication
