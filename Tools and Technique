@@ -8,7 +8,7 @@ WDigest Clear-Text Password Dumping
 
 
 
-Comands:
+Commands:
 
 Set-MpPreFerence -DisableBehaviorMonitoring $true
 Set-MpPreference -DIsableIOAVProtection $true
