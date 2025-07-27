@@ -55,6 +55,7 @@ Commands:
 
         * powershell  -ep bypass ./gip.ps1
 
+        * ncat.exe -lkv <REDACTED>:5555
 
         * reg delete "HKEY_CURRENT_USER\Software\microsoft\Terminal Server Client\Default" /va /f
         * reg delete "HKeY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers" /f
