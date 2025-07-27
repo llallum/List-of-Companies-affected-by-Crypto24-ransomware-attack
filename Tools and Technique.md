@@ -7,6 +7,8 @@
 - Remote Desktop Connection Manager
 - TightVNC
 - SSH
+- ScreenConnect
+- Datto RMM Agent
 
 ### Network & System Tools
 - Advanced Port Scanner  
@@ -15,11 +17,14 @@
 - Remote Log Viewer
 - Mimikatz
 - [DNSDumper](https://dnsdumpster.com/)
+- Robocopy
+- Get‑SmbShare and Get‑SmbShareAccess 
 
 ### Targets
 - Veeam Backup and Replication
 - ESXi Servers
 - Build Automation Repositories
+
 
 Commands:
 
@@ -132,6 +137,8 @@ Another Query to AI:
         - Trellix
         - CrowdStrike
         - Trend Micro
+               - Apex One
+               - Trend Micro Security Agent Setup
         - McAfee 
         - Fortinet VPN
         - Solarwinds Network Monitor
