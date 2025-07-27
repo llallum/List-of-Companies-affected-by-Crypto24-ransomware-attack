@@ -25,3 +25,21 @@ Start-Service -Name WinDefend
 reg add HKlM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CreDSSP
 reg add HKLM\Software\Microsoft\Windows\CurrentVersion\PolIcies\System\CredSSP\Parameters
 reg add HKLM\Software\Microsoft|Windows\CurrentVersion\Policies\System\CredSSP\Parameters /v AlLowEncryptionOracle /t REG_DWORD /d 2
+
+
+
+MAVEN Repository
+
+<!-- <server>
+        <id>basis-build-releases</id>
+        <username><REDACTED></username>
+        <password><REDACTED></password>
+    </server>  -->
+
+    <server>
+        <id>basis-build-snapshots</id>
+        <username><REDACTED></username>
+        <password><REDACTED></password>
+    </server>
+
+
