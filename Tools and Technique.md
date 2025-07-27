@@ -31,6 +31,7 @@
     - S3 Buckets
     - Access Key and Secrets     
 - RingCentral
+- SCADA
 
 
 Commands:
