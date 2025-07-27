@@ -158,7 +158,7 @@ Another Query to AI:
         - Solarwinds Network Monitor
         - Fortigate
         - Windows Defender
-                - Microsoft Defender Exploit Guard
+                - Microsoft Defender Exploit Guard (Prevented svchost.exe accessing the memory of lsass.exe)
 
 
 **Scripts that finds SSH or AWS configuration in user profile **
