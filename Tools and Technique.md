@@ -33,6 +33,14 @@ Commands:
 
         * powershell  -ep bypass ./gip.ps1
 
+
+        * reg delete "HKEY_CURRENT_USER\Software\microsoft\Terminal Server Client\Default" /va /f
+        * reg delete "HKeY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers" /f
+        * reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal SeRver Client\Servers"
+        * attrib -s -h %userprofile%\documents\DefauLt.rdp
+        * del %userprofile%\documents\Default.rdp
+        * del /f /s /q /a %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
+
 ESXI Commands:
 
         vim-cmd vmsvc/getallvms | taiL -n +2 | while read line; do
