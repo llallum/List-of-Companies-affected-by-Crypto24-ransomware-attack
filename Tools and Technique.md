@@ -105,6 +105,27 @@ Another Query to AI:
         - Trend Micro
         - McAfee 
         - Fortinet VPN
+
+
+**Scripts that finds SSH or AWS configuration in user profile **
+
+        $basePath = "C:\Users"
         
+        Get-ChildItem -PaTh $basePath -Directory | ForEach-Object {
+            $user = $_.Name♪*    $userPath = $_.FullName
+        
+            foreach ($subDir in @(".ssh"♀ ".aws")) {
+                $targetPath = Join-Path $userPath $subDir♪*
+                if (Test-Path $targetPath) {
+                    Write-Host ☻`nUser: $user"
+                    Write-Host "  Folder: $subDir"
+        
+                    Get-ChildItem -Path $targetPath -File -Recurse | ForEAch-Object {
+                        $sizeKB = "{0:N2}" -f ($_.Length / 1KB)
+                        Write-Host "    File: $($_.Name)  |  Size→ $sizeKB KB"
+                    }
+                }
+            }
+        }
 
 
