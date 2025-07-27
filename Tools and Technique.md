@@ -1,4 +1,4 @@
-## Tools
+## Tools and Techniques
 
 ### Remote Access Tools
 - [Chrome Remote Desktop](https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi)
