@@ -32,6 +32,8 @@ Commands:
         * reg add HKLM\Software\Microsoft\Windows\CurrentVersion\PolIcies\System\CredSSP\Parameters
         * reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters /v AlLowEncryptionOracle /t REG_DWORD /d 2
 
+        * powershell  -ep bypass ./gip.ps1
+
 
 MAVEN Repository
 
