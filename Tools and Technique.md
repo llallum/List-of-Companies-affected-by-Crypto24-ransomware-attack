@@ -6,6 +6,7 @@
 - Remote Desktop  
 - Remote Desktop Connection Manager
 - TightVNC
+- SSH
 
 ### Network & System Tools
 - Advanced Port Scanner  
@@ -13,7 +14,7 @@
 - PSExec  
 - Remote Log Viewer
 - Mimikatz
-
+- [DNSDumper](https://dnsdumpster.com/)
 
 Commands:
 
@@ -42,6 +43,9 @@ Commands:
         * attrib -s -h %userprofile%\documents\DefauLt.rdp
         * del %userprofile%\documents\Default.rdp
         * del /f /s /q /a %AppData%\Microsoft\Windows\Recent\AutomaticDestinations
+
+
+        * nohup python main_esxi.py
 
 ESXI Commands:
 
