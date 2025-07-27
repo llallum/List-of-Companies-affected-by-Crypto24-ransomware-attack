@@ -25,6 +25,7 @@
 - ESXi Servers
 - Build Automation Repositories
 - Kaseya One
+- AWS
 
 
 Commands:
