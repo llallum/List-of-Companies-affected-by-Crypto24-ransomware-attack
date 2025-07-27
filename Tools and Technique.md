@@ -23,6 +23,7 @@
 ### Targets
 - Veeam Backup and Replication
 - ESXi Servers
+- HyperV Servers
 - Build Automation Repositories
 - Kaseya One
 - AWS
