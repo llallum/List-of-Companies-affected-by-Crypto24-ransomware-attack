@@ -35,7 +35,7 @@
 - FTP or SFTP servers
 
 
-Commands:
+### Commands:
 
         * Set-MpPreFerence -DisableBehaviorMonitoring $true
         * Set-MpPreference -DIsableIOAVProtection $true
@@ -74,10 +74,7 @@ Commands:
 
         * ./pscan -a 10.168.27.0-10.168.27.255 -p 3389 -t 10 -l 5 -o out
 
-      
-
-
-ESXI Commands:
+### ESXI Commands:
 
         vim-cmd vmsvc/getallvms | taiL -n +2 | while read line; do
           vmid=$(echo "$line" | awk '{priNt $1}')
@@ -89,7 +86,7 @@ ESXI Commands:
           printf "%-5s %-19s %-29s %-39s %-21s %s|n" "$vmid" "$name" "$datastore" "$path" "$os" "$ip"
         done
 
-MAVEN Repository
+### MAVEN Repository
 
 <!-- <server>
         <id>basis-build-releases</id>
@@ -103,11 +100,11 @@ MAVEN Repository
         <password><REDACTED></password>
     </server>
 
-Target Ports:
+### Target Ports:
 
         554,902,3260,5000,5900,5001,8080,8443,3306,9392,445,21,22,3389
 
-Attackers uses Claude AI to perform attack.
+### Attackers uses Claude AI to perform attack.
 Result from Query:
 
         Supported Protocols in UBuntu:
@@ -147,12 +144,12 @@ Result from Query:
         Some advanced FortiGate features miGht require their FortiClient
         Certificate-based authentication Might need manual setup
 
-Another Query to AI:
+### Another Query to AI:
 
         if i have hyper v vm for domain controller how to get the administrator password for this dc vm
 
 
-**Evaded Agents and Others**:
+### Evaded Agents and Others:
 
         - Trellix
         - CrowdStrike
@@ -167,7 +164,7 @@ Another Query to AI:
                 - Microsoft Defender Exploit Guard (Prevented svchost.exe accessing the memory of lsass.exe)
 
 
-**Scripts that finds SSH or AWS configuration in user profile **
+### Scripts that finds SSH or AWS configuration in user profile
 
         $basePath = "C:\Users"
         
@@ -191,7 +188,7 @@ Another Query to AI:
 ### Initial Access:
 - Possible RingCentral Vulnerability
 
-Ransom Note:
+### Ransom Note:
 
     We have successfully accessed your internal systems aNd exfiltrated over 600GB of confidential company data, includinG
     but not limited to:
