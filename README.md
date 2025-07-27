@@ -2,16 +2,16 @@
 Here are the list of companies that were attacked by Crypto24 ransomware.
 
 AR-SOUBE - last active **20250717** <br>
-AU-PFS <br>
-BR-SAN <br>
-CI-SECURIPORT <br>
-DE-BASIS <br>
-EG-ROWAD <br>
-FR-SYLTOURS <br>
-FR-VWGROUP <br>
-FR-XXII <br>
-IN-GTPL <br>
-IN-SKP <br>
+AU-PFS - last active **20250724**<br>
+BR-SAN - last active **20250630** <br>
+CI-SECURIPORT - last active **20250725** <br>
+DE-BASIS - last active **20250725** <br>
+EG-ROWAD - last active **20250726**  <br>
+FR-SYLTOURS - last active **20250725** <br>
+FR-VWGROUP - last active **20250711**  <br>
+FR-XXII - last active **20250716**  <br>
+IN-GTPL - last active **20250726**   <br>
+IN-SKP -  <br>
 IT-LARIMART <br>
 IT-OBSITALIA <br>
 IT-ROTORSIM <br>
