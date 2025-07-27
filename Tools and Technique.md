@@ -63,7 +63,9 @@ Commands:
 
         * nohup python main_esxi.py
 
-        aws s3 ls --endpoint-url https://REDACTED --profile pnap
+        * aws s3 ls --endpoint-url https://REDACTED --profile pnap
+
+        * Check-ObjectLock-Retention.ps1
 
 
 ESXI Commands:
