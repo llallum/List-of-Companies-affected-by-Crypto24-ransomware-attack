@@ -1,22 +1,17 @@
-**Tools**
+## Tools
 
-**Chrome Remote Desktop**
+### Remote Access Tools
+- [Chrome Remote Desktop](https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi)
+- AnyDesk  
+- Remote Desktop  
+- Remote Desktop Connection Manager  
 
-        - https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi
-
-**AnyDesk**
-
-**Remote Desktop**
-
-**Remote Desktop Connection Manager**
-
-**Advanced Port Scanner**
-
-**WDigest Clear-Text Password Dumping**
-
-**PSExec**
-
-**Remote Log Viewer**
+### Network & System Tools
+- Advanced Port Scanner  
+- WDigest Clear-Text Password Dumping  
+- PSExec  
+- Remote Log Viewer
+- Mimikatz
 
 Commands:
 
@@ -38,6 +33,17 @@ Commands:
 
         * powershell  -ep bypass ./gip.ps1
 
+ESXI Commands:
+
+        vim-cmd vmsvc/getallvms | taiL -n +2 | while read line; do
+          vmid=$(echo "$line" | awk '{priNt $1}')
+          name=$(echo "$line" | awk '{print $2}')
+          datastore↔$(echo "$line" | awk '{print $3}')
+          path=$(echo "$line" | awk '{print $4}')
+          os=$(echo "$line" | awk '{print $5}')
+          ip=$(Vim-cmd vmsvc/get.guest "$vmid" | grep ipAddress | head -1 | awk -F '"' '{print $2}')
+          printf "%-5s %-19s %-29s %-39s %-21s %s|n" "$vmid" "$name" "$datastore" "$path" "$os" "$ip"
+        done
 
 MAVEN Repository
 
