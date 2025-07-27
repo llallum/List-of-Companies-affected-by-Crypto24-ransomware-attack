@@ -26,7 +26,9 @@
 - HyperV Servers
 - Build Automation Repositories
 - Kaseya One
-- AWS S3 Buckets
+- AWS
+  - S3 Buckets
+  - Access Key and Secrets     
 - RingCentral
 
 
