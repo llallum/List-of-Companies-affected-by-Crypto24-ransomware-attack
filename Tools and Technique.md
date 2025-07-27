@@ -19,6 +19,7 @@
 ### Targets
 - Veeam Backup and Replication
 - ESXi Servers
+- Build Automation Repositories
 
 Commands:
 
