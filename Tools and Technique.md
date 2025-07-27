@@ -32,6 +32,7 @@
     - Access Key and Secrets     
 - RingCentral
 - SCADA
+- FTP or SFTP servers
 
 
 Commands:
