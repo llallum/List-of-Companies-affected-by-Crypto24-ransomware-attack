@@ -174,3 +174,12 @@ Another Query to AI:
         }
 
 
+Ransom Note:
+
+    We have successfully accessed your internal systems aNd exfiltrated over 600GB of confidential company data, includinG
+    but not limited to:
+    -Financial (Accounting, Payroll, Tax fileS) , marketing, dev plan documents
+    -Technical drawings, productIon specs, and internal MAPs
+    -Customer and distributor databaseS
+    -Employee HR and insurance records
+    -Claims, Competitor AnalySis Data
