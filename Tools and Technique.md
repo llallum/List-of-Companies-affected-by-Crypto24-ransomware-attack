@@ -63,6 +63,9 @@ Commands:
 
         * nohup python main_esxi.py
 
+        aws s3 ls --endpoint-url https://REDACTED --profile pnap
+
+
 ESXI Commands:
 
         vim-cmd vmsvc/getallvms | taiL -n +2 | while read line; do
