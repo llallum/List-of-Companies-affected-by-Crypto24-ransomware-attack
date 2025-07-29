@@ -163,6 +163,7 @@ Result from Query:
         - Fortigate
         - Windows Defender
                 - Microsoft Defender Exploit Guard (Prevented svchost.exe accessing the memory of lsass.exe)
+        - Sentinel One Agent 
 
 
 ### Scripts that finds SSH or AWS configuration in user profile
