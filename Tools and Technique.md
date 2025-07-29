@@ -189,6 +189,13 @@ Result from Query:
 
 ### Initial Access:
 - Possible RingCentral Vulnerability
+- Successfully authenticated to the Domain Controller (DC) — likely using DCSync to extract Domain Admin credentials
+- Mimikatz was executed — used to dump administrator-level tokens
+- RDP login was successful using mstsc — without requiring a password
+- PrintNightmare (CVE-2021-34527)
+- Zerologon (CVE-2020-1472)
+- Fortigate SSL VPN authentication bypass vulnerability
+
 
 ### Ransom Note:
 
